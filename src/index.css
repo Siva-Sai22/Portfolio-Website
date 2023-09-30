@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 auto;
+    min-height: fit-content;
+}
+
+.heading{
+    font-size: 32px;
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+/* Header Section */
+.header {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 180px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+    text-underline-offset: 12px;
+}
+
+.name {
+    font-size: 32px;
+    cursor: default;
+}
+
+/* About */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 6em;
+}
+
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+}
+
+.about_text {
+    text-align: center;
+}
+
+.about_buttons {
+    margin: 16px 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 300ms ease;
+    font-weight: 600;
+}
+
+.about_buttons:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Experience */
+
+.experience_container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid grey;
+    border-radius: 32px;
+    padding: 32px;
+    color: rgb(85, 85, 85);
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    font-weight: bold;
+    width: 180px;
+}
+
+.experience_text {
+    padding: 0px 16px;
+}
