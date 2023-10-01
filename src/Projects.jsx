@@ -13,7 +13,7 @@ function Projects(){
                 <div class='project-content'>
                     <img src={calculator} class='project-img'/>
                     <h2>Calculator</h2>
-                    <div>
+                    <div class='about-buttons'>
                         <button class='buttons' onClick={()=>location.href='https://github.com/Siva-Sai22/Calculator'}>Github</button>
                         <button class='buttons' onClick={()=>location.href='https://siva-sai22.github.io/Calculator/'}>Live Demo</button>
                     </div>
@@ -21,7 +21,7 @@ function Projects(){
                 <div class='project-content'>
                     <img src={etch} class='project-img'/>
                     <h2>Etch a sketch</h2>
-                    <div>
+                    <div class='about-buttons'>
                         <button class='buttons' onClick={()=>location.href='https://github.com/Siva-Sai22/Etch-a-sketch'}>Github</button>
                         <button class='buttons' onClick={()=>location.href='https://siva-sai22.github.io/Etch-a-sketch/'}>Live Demo</button>
                     </div>
@@ -29,7 +29,7 @@ function Projects(){
                 <div class='project-content'>
                     <img src={rock} class='project-img'/>
                     <h2>Rock Paper Scissors</h2>
-                    <div>
+                    <div class='about-buttons'>
                         <button class='buttons' onClick={()=>location.href='https://github.com/Siva-Sai22/Rock-Paper-Scissors'}>Github</button>
                         <button class='buttons' onClick={()=>location.href='https://siva-sai22.github.io/Rock-Paper-Scissors/'}>Live Demo</button>
                     </div>

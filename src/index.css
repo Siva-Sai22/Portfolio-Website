@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Young+Serif&display=swap');
 
 * {
     margin: 0;
@@ -14,24 +14,23 @@ html {
     scroll-behavior: smooth;
 }
 
-section {
-    min-height: fit-content;
-}
-
 .heading{
     font-size: 32px;
     text-align:center;
     font-weight: bold;
     margin: 32px 0;
+    font-family: 'Young Serif';
 }
 
 .buttons {
+    text-align: center;
     margin: 16px 8px;
-    padding: 12px 24px;
+    padding: 0 4px;
     font-size: 16px;
-    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
     border: 1px solid black;
-    background-color: white;
     transition: all 300ms ease;
     font-weight: 600;
 }
@@ -49,7 +48,7 @@ section {
     justify-content: space-around;
     align-items: center;
     padding: 32px;
-    margin-bottom: 180px;
+    margin-bottom: 185px;
 }
 
 .links {
@@ -70,6 +69,7 @@ a:hover {
 
 .name {
     font-size: 32px;
+    font-family: 'Young Serif';
     cursor: default;
 }
 
@@ -90,6 +90,12 @@ a:hover {
 
 .about_text {
     text-align: center;
+}
+
+.about-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
 /* Experience */
@@ -162,4 +168,30 @@ a:hover {
 
 .project-img {
     border-radius: 32px;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.contact-container {
+    border: 1px solid black;
+    border-radius: 32px;
+    padding: 32px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-contents {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 }
