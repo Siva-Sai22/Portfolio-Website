@@ -21,8 +21,8 @@ function About(){
                 <div>
                     <p class="about_text">Hello, I'm </p>
                     <h1 class="about_text">Kollakota Siva Sai</h1>
-                    <button class="about_buttons" onClick={download}>Resume</button>
-                    <button class="about_buttons"  onClick={redirect}>Contact Info</button>
+                    <button class="buttons" onClick={download}>Resume</button>
+                    <button class="buttons"  onClick={redirect}>Contact Info</button>
                 </div>
             </div>    
         </section>
